@@ -1,0 +1,173 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  min-width: 1000px;
+  font-family: Arial;
+  background-color: #f5f5f5;
+}
+main{
+  margin: 0px;
+  padding: 0px;
+}
+.fixed-container{
+  width: 960px;
+  margin: 0 auto;
+  background-color: blue;
+
+}
+  .list-tasks-column{
+    width: 470px;
+    margin-right: 20px;
+    margin-top: 64px;
+    margin-left: 0px;
+    padding: 0px;
+    position: relative;
+    float: left;
+  }
+    .ltc-header{
+      font-size: 20px;
+      margin: 0 0 30px 0;
+      padding: 0px;
+
+    }
+  .ltc-emptylist{
+    font-size: 16px;
+    color: #8993ad;
+    margin-top: 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .add-new-task-column{
+    margin-top: 64px;
+    width: 470px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    position: relative;
+    float: right;
+  }
+    .antc-header{
+      font-size: 20px;
+      padding: 0px;
+      margin: 0px;
+    }
+    .antc-main-field{
+      background-color: white;
+      width: 470;
+      margin-top: 30px;
+    }
+      .antc-main-field-label-name{
+        font-size: 14px;
+        color: #8993ad;
+        padding-top: 30px;
+        padding-left: 40px;
+      }
+      .antc-text-nameNewTask{
+        font-family: Arial;
+        margin-top: 11px;
+        margin-left: 40px;
+        outline: none; /*чтобы область не выделалась при вводе #ebebeb;;*/
+        font-size: 16px;
+        padding-left: 14px;
+        background-color: #f9f9f9;
+        border-width: 1px;
+        border-color: #ebebeb;
+        border-style: solid;
+        height: 48px;
+        width: 375px;
+      }
+      .antc-main-field-label-description{
+        font-size: 14px;
+        color: #8993ad;
+        margin-top: 30px;
+        margin-left: 40px;
+      }
+      .antc-text-descriptonNewTask{
+        font-family: Arial;
+        margin-top: 11px;
+        margin-left: 40px;
+        outline: none; /*чтобы область не выделалась при вводе;*/
+        font-size: 16px;
+        padding-left: 14px;
+        background-color: #f9f9f9;
+        border-width: 1px;
+        border-color: #ebebeb;
+        border-style: solid;
+        padding-top: 20px;
+        width: 375px;
+        resize: none; /*чтобы нельзя было изменить размеры*/
+      }
+      .antc-text-button{
+        margin-top: 30px;
+        margin-left: 40px;
+        bottom: 56px;
+        background-color: #2372f6;
+        color: white;
+        height: 55px;
+        width: 225px;
+        border-style:none;
+        font-size: 15px;
+        margin-bottom: 55px;
+      }
+
+
+/*-------------- Start newTask*/
+.ltc-task{
+  background-color: white;
+  width: 470px;
+  min-height: 50px;
+  border-bottom: 1px #ebebeb solid;
+  overflow: hidden;
+}
+  .ltc-nameTask{
+    position: relative;
+    float: left;
+    max-width: 300px;
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 20px;
+    margin-right: 22px;
+  }
+  .button-deleteTask{
+    position: relative;
+    float: left;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 22px;
+    border: none;
+    background-color: white;
+
+  }
+  .button-rowDown{
+    position: relative;
+    float: right;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 22px;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    border: none;
+    padding: 0;
+  }
+  .button-rowDown img{
+    height: 16px;
+    width: 16px;
+    margin: 0;
+    padding: 0;
+    /* transform: rotate(-90deg); */
+  }
+.ltc-descriptionTask
+{
+  font-size: 16px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  padding-right: 22px;
+  color: #8993ad;
+  background-color: white;
+  min-height: 85px;
+  margin-bottom:20px;
+}
+/*-------------- Finish newTask*/
